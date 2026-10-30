@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Information</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    table {
+      width: 80%;
+      margin: auto;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    th, td {
+      border: 1px solid #000;
+      padding: 8px 12px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .header-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .sub-title {
+      font-size: 0.95rem;
+      font-weight: normal;
+    }
+  </style>
+</head>
+<body>
+
+<table>
+  <!-- Top Table Headers -->
+  <thead>
+    <tr>
+      <th colspan="6" class="header-title">
+        Student Information<br>
+        <span class="sub-title">Academic Year 2026-2027</span>
+      </th>
+    </tr>
+    <tr>
+      <th rowspan="2">S.No</th>
+      <th rowspan="2">Student Name</th>
+      <th rowspan="2">Roll No</th>
+      <th rowspan="2">Course</th>
+      <th colspan="2">Marks</th>
+    </tr>
+    <tr>
+      <th>Theory</th>
+      <th>Practical</th>
+    </tr>
+  </thead>
+
+  <!-- Table Body Data -->
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td rowspan="3">Aman Sharma</td>
+      <td>101</td>
+      <td rowspan="3">B.Tech CSE</td>
+      <td>10</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>102</td>
+      <td>20</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>103</td>
+      <td>30</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Neha Verma</td>
+      <td>104</td>
+      <td>MCA</td>
+      <td>70</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Rohit Kumar</td>
+      <td>105</td>
+      <td>BBA</td>
+      <td>80</td>
+      <td>75</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Sneha Gupta</td>
+      <td>106</td>
+      <td>BCA</td>
+      <td>90</td>
+      <td>85</td>
+    </tr>
+  </tbody>
+
+  <!-- Table Footer -->
+  <tfoot>
+    <tr>
+      <td colspan="5"><strong>Total Students</strong></td>
+      <td><strong>6</strong></td>
+    </tr>
+  </tfoot>
+</table>
+
+</body>
+</html>
